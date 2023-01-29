@@ -9,9 +9,9 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-
 string[] array1 = new string[5] {"Sun", "Summer", "Water", "World", "Sea"};
 string[] array2 = new string[array1.Length];
+
 void SecondArray(string[] array1, string[] array2)
 {
     int count = 0;
@@ -35,5 +35,3 @@ void PrintArray(string[] array)
 SecondArray(array1, array2);
 PrintArray(array2);
 
-
-		
